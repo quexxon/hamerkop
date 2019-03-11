@@ -1,4 +1,4 @@
-use ips_patcher::IpsRecord;
+use hamerkop::IpsRecord;
 use std::env;
 use std::fs;
 use std::path::Path;
@@ -32,7 +32,7 @@ fn main() {
 
         _ => {
             println!("USAGE:");
-            println!("cmd PATCH_FILE INPUT_FILE OUTPUT_FILE");
+            println!("hamerkop PATCH_FILE INPUT_FILE OUTPUT_FILE");
         }
     }
 }
